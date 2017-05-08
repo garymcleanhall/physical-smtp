@@ -1,0 +1,33 @@
+{
+  "name": "physical-smtp",
+  "version": "0.1.0",
+  "description": "Physical module for checking health of downstream smtp server dependency",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garymcleanhall/physical-smtp.git"
+  },
+  "keywords": [
+    "physical",
+    "healthcheck",
+    "status",
+    "dependency",
+    "smtp"
+  ],
+  "author": "Gary McLean Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garymcleanhall/physical-smtp/issues"
+  },
+  "homepage": "https://github.com/garymcleanhall/physical-smtp#readme",
+  "dependencies": {
+    "simplesmtp": "^0.3.35"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "smtp-server": "^3.0.1"
+  }
+}
