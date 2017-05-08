@@ -22,7 +22,5 @@ function _smtpCheck(options) {
 }
 
 module.exports = {
-  smtp: {
-    check: _smtpCheck
-  }
+  check: _smtpCheck
 }

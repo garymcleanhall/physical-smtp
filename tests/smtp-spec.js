@@ -1,8 +1,11 @@
 'use strict';
 
 const
-  smtpServer = require('./smtpServer'),
-  physical = require('../index')
+  smtpServer = require('./smtpServer')
+
+const physical = {
+  smtp: require('../index')
+}
 
 function testAsync(runAsync) {
   return (done) => {
